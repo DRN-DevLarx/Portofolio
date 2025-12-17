@@ -47,7 +47,7 @@ export default function ChatRoom() {
 
   return (
     <div className="bg-zinc-900 border border-gray-700 p-6 rounded-xl shadow-lg max-w-xl mx-auto mt-5">
-      <h2 className="text-2xl font-bold text-center mb-4 text-white">💬 Chat Room</h2>
+      <h2 className="text-2xl font-bold text-center mb-4 text-white">💬 Chat</h2>
 
       {/* Header user */}
       {user && (
@@ -114,11 +114,12 @@ export default function ChatRoom() {
             type="submit"
             className="bg-green-600 px-4 py-2 rounded-lg text-white hover:bg-green-700 w-full sm:w-auto"
           >
-            Send
+            Enviar
           </button>
         </form>
       ) : (
         <div className="flex flex-col items-center justify-center gap-4">
+
           <button
             onClick={loginWithGoogle}
             className="flex items-center gap-3 bg-white text-gray-800 px-5 py-2 rounded-full shadow hover:bg-gray-200 transition"
@@ -128,9 +129,10 @@ export default function ChatRoom() {
               alt="Google logo"
               className="w-5 h-5"
             />
-            Login with Google
+            LogIn
           </button>
-          <p className="text-sm text-gray-400">Login untuk mengirim pesan</p>
+
+          <p className="text-sm text-gray-400">Inicia sesión para enviar un mensaje</p>
         </div>
       )}
     </div>

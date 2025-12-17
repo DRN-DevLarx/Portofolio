@@ -25,6 +25,7 @@ import Tools16 from "/assets/tools/ts.png";
 import Tools17 from "/assets/tools/php.png";
 import Tools18 from "/assets/tools/vite.png";
 import Tools19 from "/assets/tools/mysql.png";
+import Tools20 from "/assets/tools/django.png";
 
 
 export const listTools = [
@@ -42,13 +43,13 @@ export const listTools = [
     ket: "Framework",
     dad: "200",
   },
-  {
-    id: 3,
-    gambar: Tools3,
-    nama: "Next JS",
-    ket: "Framework",
-    dad: "300",
-  },
+  // {
+  //   id: 3,
+  //   gambar: Tools3,
+  //   nama: "Next JS",
+  //   ket: "Framework",
+  //   dad: "300",
+  // },
   {
     id: 4,
     gambar: Tools4,
@@ -70,13 +71,13 @@ export const listTools = [
     ket: "Language",
     dad: "600",
   },
-  {
-    id: 7,
-    gambar: Tools7,
-    nama: "Node JS",
-    ket: "Javascript Runtime",
-    dad: "700",
-  },
+  // {
+  //   id: 7,
+  //   gambar: Tools7,
+  //   nama: "Node JS",
+  //   ket: "Javascript Runtime",
+  //   dad: "700",
+  // },
   {
     id: 8,
     gambar: Tools8,
@@ -84,13 +85,13 @@ export const listTools = [
     ket: "Repository",
     dad: "800",
   },
-  {
-    id: 9,
-    gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
-    dad: "900",
-  },
+  // {
+  //   id: 9,
+  //   gambar: Tools9,
+  //   nama: "Adobe Illustrator",
+  //   ket: "Design App",
+  //   dad: "900",
+  // },
   {
     id: 10,
     gambar: Tools10,
@@ -105,13 +106,13 @@ export const listTools = [
     ket: "Design App",
     dad: "1100",
   },
-  {
-    id: 12,
-    gambar: Tools12,
-    nama: "Kotlin",
-    ket: "Language",
-    dad: "1200",
-  },
+  // {
+  //   id: 12,
+  //   gambar: Tools12,
+  //   nama: "Kotlin",
+  //   ket: "Language",
+  //   dad: "1200",
+  // },
   {
     id: 13,
     gambar: Tools13,
@@ -133,13 +134,13 @@ export const listTools = [
     ket: "Language",
     dad: "1500",
   },
-  {
-    id: 16,
-    gambar: Tools16,
-    nama: "TypeScript",
-    ket: "Language",
-    dad: "1600",
-  },
+  // {
+  //   id: 16,
+  //   gambar: Tools16,
+  //   nama: "TypeScript",
+  //   ket: "Language",
+  //   dad: "1600",
+  // },
   {
     id: 17,
     gambar: Tools17,
@@ -158,6 +159,13 @@ export const listTools = [
     id: 19,
     gambar: Tools19,
     nama: "MySql",
+    ket: "Framework",
+    dad: "1900",
+  },
+  {
+    id: 19,
+    gambar: Tools20,
+    nama: "Django",
     ket: "Framework",
     dad: "1900",
   },
